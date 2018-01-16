@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>aboutMe</title>
+  <style>
+    .wrap {
+      max-width: 44rem;
+      margin: 0 auto;
+    }
+
+    .title {
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .title .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    h3 {
+      margin: 20px 0 5px 0;
+    }
+
+    ul {
+      margin: 0;
+    }
+
+    li {
+      list-style: none;
+      line-height: 24px;
+      padding: 4px 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .info {
+      overflow: hidden;
+    }
+
+    .info li {
+      list-style: none;
+      line-height: 20px;
+      padding: 3px 0;
+    }
+
+    .basic {
+      float: left;
+    }
+
+    .contact {
+      float: right;
+    }
+
+    .edu-info {
+      width: 600px;
+    }
+
+    .edu-info li {
+      display: inline-block;
+      width: 24%;
+      text-align: center;
+    }
+
+    .addr img {
+      width: 20px;
+      height: 20px;
+    }
+
+    p {
+      margin: 8px 0;
+      padding-left: 15px;
+      line-height: 24px;
+    }
+
+    h4 {
+      margin: 5px 0;
+      padding-left: 10px;
+    }
+
+    h5 {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <section class="title">
+      <section class="logo">
+        <img src="" alt="">
+      </section>
+      <h3>前端开发</h3>
+    </section>
+    <section class="info">
+      <section class="basic">
+        <ul>
+          <li>姓名: 杨文豪</li>
+          <li>性别: 男</li>
+          <li>年龄: 22</li>
+          <li>籍贯: 河南信阳</li>
+        </ul>
+      </section>
+      <section class="contact">
+        <ul>
+          <li>手机: 15036065483</li>
+          <li>邮箱: whyang115@gmail.com</li>
+          <li>QQ/微信: 1138550458/whyang115</li>
+          <li>github: http://github.com/whyang115</li>
+        </ul>
+      </section>
+    </section>
+    <secction class="edu">
+      <h4>教育经历</h4>
+      <ul class="edu-info">
+        <li>郑州轻工业学院</li>
+        <li>本科</li>
+        <li>通信工程</li>
+        <li>2014/09-2018/06</li>
+      </ul>
+    </secction>
+    <section class="experience">
+      <h4>实习经历</h4>
+      <p>亚信科技(河南中移在线项目组): 2017/06 - 2017/12</p>
+      <ul>
+        <li>
+          <h5>中移在线10085云问卷</h5>
+          <p class="project-address">地址:
+            <a href="http://ywj.10085.cn/">http://ywj.10085.cn/</a>
+          </p>
+          <p class="describe">项目描述: 10085云问卷是以问卷星为竞品的主要供中移在线内部使用的问卷系统,自2017年七月上旬始开发近一个月时间,此项目使用typescript+jquery+sass+handlebars开发,使用webpack进行自动化打包构建,我在其中负责六个主要模块中的登陆注册和统计分析模块开发以及后续的维护工作
+          </p>
+        </li>
+        <li>
+          <h5>网罗天下客户经理工作台(react-native)</h5>
+          <p class="project-address">下载地址:
+            <a href="https://appdist.online-cmcc.cn:20005/downloadPage.html?id=2d57beb0-e0bf-11e7-8d90-ed0d2a63f1b0">https://appdist.online-cmcc.cn:20005/downloadPage.html?id=2d57beb0-e0bf-11e7-8d90-ed0d2a63f1b0</a>
+          </p>
+          <p class="describe">
+            项目描述: 此项目是为中国移动客户经理工作台,使用react-native开发,集成多个第三方插件,是一个偏展示类的应用,我在其中负责商机模块的编写与重用组件的封装
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="project">
+      <h4>个人项目</h4>
+      <ul>
+        <li>
+          <h5>vue仿写追书神器</h5>
+          <p class="project-address">地址:
+            <a href="http://whyang.cn/read">http://whyang.cn/read</a>
+          </p>
+          <p class="describe">项目描述: 使用vue-cli组件化开发,使用flex布局、使用sass预处理css、使用es66语法, 通过localstorage保存搜索历史,使用vuex管理应用状态、vue-router处理路由跳转、axios请求第三方接口数据</p>
+        </li>
+      </ul>
+    </section>
+    <section class="skills">
+      <h4>个人技能</h4>
+      <ul>
+        <li>熟练掌握HTML5、CSS3开发技术，对HTML语义化、css布局有一定的理解，掌握html模版引擎handlebars、css预解析语言sass</li>
+        <li>熟练掌握javascript基本语法,对原型链、闭包、继承有一定的理解、掌握es6语法,熟悉typescript、掌握基本库jquery、bootstrap</li>
+        <li>掌握git flow工作流,了解前后端及团队协作流程,能参与团队开发</li>
+        <li>了解前端构建打包工具webapck,能配置前端自动化工作流程</li>
+        <li>通过英语四级,能阅读英文文档,能翻墙查阅外文资料,能熟练应用google、stackoverflow搜索解决遇到的问题</li>
+        <li>了解vuejs的基本使用及vue-router、vuex、axios等相关插件的使用</li>
+        <li>了解react、react-native的基本使用</li>
+        <li>了解nodejs,对常用node模块有一定的了解</li>
+      </ul>
+    </section>
+    <section class="intro">
+      <h4>个人评价</h4>
+      <p>我是一个通情达理、乐观开朗、懂得感恩的人</p>
+      <p>有极强的学习欲望和较强的学习能力以及终生学习的觉悟</p>
+      <p>对待工作认真负责,对技术有持续的追求,希望能在全力为公司创造价值的同时提升自己的技术水平
+      </p>
+    </section>
+  </div>
+
+</body>
+
+</html>
